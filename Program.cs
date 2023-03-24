@@ -27,3 +27,24 @@
 // Console.Write("Введите число: ");
 // int num = Convert.ToInt32(Console.ReadLine());
 // Console.WriteLine($"Сумма числа {num}: {SumofNumbers(num)}");
+
+//Напишите программу, которая задаёт массив из 8 элементов и выводит их на экран.
+// int [] CreateRandomArray()
+// {
+//     int[] array = new int[8];
+
+//     for(int i = 0;  i < 8; i++)
+//         array[i] = new Random().Next(1, 10 + 1);
+    
+//     return array;
+// }
+
+// void WriteArray(int[] array)
+// {
+//     for(int i = 0 ; i < array.Length; i++)
+//         Console.Write(array[i] + " ");
+    
+//     Console.WriteLine();
+// }
+
+// WriteArray(CreateRandomArray());
